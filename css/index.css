@@ -1,0 +1,108 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background: #BBBBBB;
+    padding: 20px 0;
+}
+
+.caixa {
+    position: inherit;
+    width: 940px;
+    margin: 0 auto;
+}
+
+@-webkit-keyframes aparece {
+    0% {
+        transform: scale(0.0001);
+        opacity: 0;
+    }
+}
+
+.banner {
+    width: 100%;
+    max-height: 200px;
+    display: inline;
+
+    box-sizing: border-box;
+
+    animation: aparece 0.5s;
+    animation-delay: 500ms;
+    animation-fill-mode: backwards;
+}
+
+
+nav {
+    position: absolute;
+    top: 5em;
+    right: 10em;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #C78C19;
+    text-decoration: underline;
+}
+
+.banner {
+    width:100%;
+}
+
+.titulo-principal,
+.titulo-video,
+.principais-herois,
+.principais-filmes {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+}
+
+.principal {
+    padding: 3em 0;
+    background: #FEFEFE;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.principal p {
+    margin: 0 0 1em;
+}
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
+
+.video {
+    width: 560px;
+    margin: 2em auto;
+}
+
+footer {
+    text-align: center;
+    background: url("../imagens/bg.jpg");
+    padding: 40px 0;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px 0 0;
+}

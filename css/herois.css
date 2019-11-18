@@ -1,0 +1,55 @@
+.herois {
+    display: flex;
+    margin: auto;
+    width: 5em;
+    height: 15em;
+}
+
+.principais-herois,
+.principais-filmes {
+    margin-top: 2em;
+}
+
+.tabela-herois,
+.tabela-filmes {
+    border-collapse: separate;
+    border-spacing: 0.25em;
+    padding: 8em;
+}
+
+.tabela-herois th,
+.tabela-filmes th {
+    font-weight: bold;
+    background-color: #808080;
+    color: #FFFFFF;
+    vertical-align: middle;
+}
+
+.tabela-herois thead th,
+.tabela-filmes thead th {
+    background-color: #808080;
+    border: 1px solid #000000;
+}
+
+.tabela-herois td {
+    background-color: #EEE;
+    font-size: 2em;
+    text-align: justify;
+}
+
+.tabela-filmes td {
+    background-color: #EEE;
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+.tabela-herois th,
+.tabela-herois td,
+.tabela-filmes th,
+.tabela-filmes td {
+    padding: 1em;
+}
+
+.herois {
+    text-align: center;
+}
